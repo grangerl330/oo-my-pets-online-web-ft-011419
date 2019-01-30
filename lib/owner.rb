@@ -45,6 +45,7 @@ class Owner
       array.collect do |pet|
         pet.mood = "nervous"
       end 
+      array.clear
     end 
   end 
   

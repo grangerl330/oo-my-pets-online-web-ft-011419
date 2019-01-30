@@ -14,4 +14,7 @@ class Owner
     self.all.clear
   end 
   
+  def initialize(species)
+    
+  
 end

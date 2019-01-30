@@ -38,6 +38,10 @@ class Owner
     @pets[:fishes].collect {|fish| fish.mood = "happy"}
   end 
   
+  def sell_pets
+  
+  end 
+  
   def self.all
     @@all 
   end 

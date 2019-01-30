@@ -42,9 +42,8 @@ class Owner
   
   def sell_pets
     @pets.each do |species_key, array|
-      array.each do |pet|
+      array.collect do |pet|
         pet.mood = "nervous"
-        binding.pry 
       end 
     end 
   end 

@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   attr_reader :species 
   attr_accessor :name, :pets
@@ -42,6 +44,7 @@ class Owner
     @pets.each do |species_key, array|
       array.each do |pet|
         pet.mood = "nervous"
+        binding.pry 
       end 
     end 
   end 

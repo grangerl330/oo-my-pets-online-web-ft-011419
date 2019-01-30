@@ -49,6 +49,10 @@ class Owner
     end 
   end 
   
+  def list_pets
+    "I have "
+  end 
+  
   def self.all
     @@all 
   end 
